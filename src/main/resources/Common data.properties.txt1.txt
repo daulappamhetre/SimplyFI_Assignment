@@ -1,0 +1,2 @@
+URL https://simplyfi.tech/
+browser chrome

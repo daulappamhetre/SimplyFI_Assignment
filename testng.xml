@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="">
+
+  <test thread-count="5" name="Test">
+	  
+	  <groups>
+		  <run>
+			  <include name="SimplyFI_Scripts"></include>
+		  </run>
+	  </groups>
+	  
+<classes>
+	
+
+      <class name="SimplyFI_Scripts.SexithScriptfor_Resources"/>
+      <class name="SimplyFI_Scripts.ThridScript"/>
+      <class name="SimplyFI_Scripts.FristScript"/>
+      <class name="SimplyFI_Scripts.ForthScripts"/>
+      <class name="SimplyFI_Scripts.FifthScript"/>
+      <class name="SimplyFI_Scripts.SecondScript"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+    
